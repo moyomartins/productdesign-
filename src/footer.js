@@ -31,7 +31,7 @@ class Footer extends Component {
                                         <img src={Linkedin} alt='linkedin logo'/>
                                         <p className='text-myblue2 mt-1'>@<span className='underline'>Moyo Martins</span></p>
                                     </a>
-                                    <a className='medium flex items-center gap-2 my-3' href='https://medium.com/@martinstm'>
+                                    <a className='medium flex items-center gap-2 my-3' href='https://medium.com/@martinstm_9973'>
                                         <img src={Medium} alt='medium logo'/>
                                         <p>@<span className='underline'>Martinstm</span></p>
                                     </a>
