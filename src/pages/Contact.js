@@ -14,7 +14,7 @@ function Contact(props) {
          </header>
          <div className=' flex flex-col items-center'>
             <p className='text-mysecondary max-w-3xl text-center mt-4 leading-8 font-light mx-8'>Want to have a chat with me about food, movies or product design? </p>
-            <div className='flex flex-wrap iphone:gap-2 items-center mt-2 mx-2'>
+            <div className='flex flex-wrap iphone:gap-2 items-center mt-2 mx-0'>
                 <p className='text-mysecondary text-center leading-8 font-light'>Send me a mail</p>
                 <a className='email flex items-center text-center gap-2 justify-end' href='mailto:martinstm@yahoo.com'>
                     <img src={Yahoo} alt='yahoo logo'/>
