@@ -16,6 +16,7 @@ module.exports = {
       mypurple: '#EEECF4',
       mybg: '#E5E6E7',
       myteal: '#0d9488',
+      myteal2: '#2dd4bf',
       myrose: '#475569'
     },
     spacing: {

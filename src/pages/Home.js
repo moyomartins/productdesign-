@@ -31,7 +31,7 @@ function Home(props) {
         <p className='text-3xl text-myblack font-bold text-center'><span className='font-medium text-mysecondary'>Hi,</span> I'm Moyo</p>
         {/* <img className='hidden h-8 smallest:block' src={Emoji} alt='smiling emoji'/> */}
       </header>
-      <p className='text-mysecondary max-w-2xl text-left lg:text-center mt-4 leading-8 font-light'>A <span className='font-medium text-black'>Product designer and Product Manager </span> from Lagos, Nigeria.
+      <p className='text-mysecondary max-w-2xl text-center lg:text-center mt-4 leading-8 font-light'>A <span className='font-medium text-black'>Product designer and Product Manager </span> from Lagos, Nigeria.
       <br/>The ideal product design sells the product/service(s) intended at a glance.</p>
       <div className='Button mt-8'>
       <Button text='Connect with me' type='int' link='/contact'/>
