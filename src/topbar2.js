@@ -49,9 +49,9 @@ class TopBar extends Component{
                         </Link>
                         <div className='Menu-icon-mobile md:hidden'><img src={this.state.menuIcon} onClick={this.handleClick} alt='Menu icon'/></div>
                         <div className='Menu-desktop hidden md:flex gap-20 text-myblack font-light text-lg px-8'>
-                        {this.state.page === 'home' ? <p className='bg-myteal rounded-full px-5'>.home</p> : <Link to='/' className='hover:bg-mygrey rounded-full px-5'>.home</Link>}                                    
-                        {this.state.page === 'work' ? <p className='bg-myteal rounded-full px-5' to='/work'>.work</p> :  <Link to='/work' className='hover:bg-mygrey rounded-full px-5 '>.work</Link>}                                               
-                        {this.state.page === 'contact' ? <p className='bg-myteal rounded-full px-5'>.contact</p> :  <Link to='/contact' className='hover:bg-mygrey rounded-full px-5'>.contact</Link>}
+                        {this.state.page === 'home' ? <p className='bg-myteal text-mywhite  rounded-full px-5'>.home</p> : <Link to='/' className='hover:bg-mygrey rounded-full px-5'>.home</Link>}                                    
+                        {this.state.page === 'work' ? <p className='bg-myteal text-mywhite rounded-full px-5' to='/work'>.work</p> :  <Link to='/work' className='hover:bg-mygrey rounded-full px-5 '>.work</Link>}                                               
+                        {this.state.page === 'contact' ? <p className='bg-myteal text-mywhite rounded-full px-5'>.contact</p> :  <Link to='/contact' className='hover:bg-mygrey rounded-full px-5'>.contact</Link>}
                                                                            
                         </div>
                     </div>

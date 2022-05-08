@@ -21,15 +21,15 @@ class Footer extends Component {
                                 <div className='socials-links flex flex-col lg:flex-row max-w-3xl mt-3 gap-12 '>
                                     <a className='twitter flex items-center gap-2 my-3' href='https://twitter.com/moy0000'>
                                         <img src={Twitter} alt='twitter logo'/>
-                                        <p className='text-blue-400'>@<span className='underline'>moyo</span></p>
+                                        <p className='text-blue-400'>@<span className=''>moyo</span></p>
                                     </a>
                                     <a className='behance flex items-center gap-2 my-3' href='https://www.behance.net/martinsmoyosore'>
                                         <img src={Behance} alt='behance logo'/>
-                                        <p>@<span className='underline'>Moyo Martins</span></p>
+                                        <p>@<span className=''>Moyo Martins</span></p>
                                     </a>
                                     <a className='linkedin flex items-center gap-2 my-3' href='https://www.linkedin.com/in/moyosore-martins-abb785202/'>
                                         <img src={Linkedin} alt='linkedin logo'/>
-                                        <p className='text-myblue2 mt-1'>@<span className='underline'>Moyo Martins</span></p>
+                                        <p className='text-myblue2 mt-1'>@<span className=''>Moyo Martins</span></p>
                                     </a>
                                     {/* <a className='medium flex items-center gap-2 my-3' href='https://medium.com/@martinstm_9973'>
                                         <img src={Medium} alt='medium logo'/>
@@ -45,7 +45,7 @@ class Footer extends Component {
                                 <p className='text-lg text-mysecondary'>say hello</p>
                                 <a className='email flex my-3 items-center gap-2 justify-end' href='mailto:martinstm@yahoo.com'>
                                     <img src={Yahoo} alt='yahoo logo'/>
-                                    <p className='underline'>martinstm@yahoo.com</p>
+                                    <p className='underline text-myblue2 hover:text-myblue'>Martinstm@yahoo.com</p>
                                 </a>
                             </div>
                         </div>
