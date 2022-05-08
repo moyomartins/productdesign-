@@ -14,7 +14,9 @@ module.exports = {
       myblack: '#070D18',
       mygrey: '#F0F0F0',
       mypurple: '#EEECF4',
-      mybg: '#E5E6E7'
+      mybg: '#E5E6E7',
+      myteal: '#0d9488',
+      myrose: '#475569'
     },
     spacing: {
       'margin': '102px',
@@ -35,3 +37,4 @@ module.exports = {
   },
   plugins: [],
 }
+

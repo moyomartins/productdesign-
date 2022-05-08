@@ -41,7 +41,7 @@ class Case extends Component {
                             <p className='text-5xl text-myblack font-semibold mt-6'>{this.state.title}</p>
                             <p className='text text-lg text-mysecondary max-w-md mt-3 lg:mt-6 leading-8 tracking-loose font-light'>{this.state.description}</p>
                             <div className='button flex flex-nowrap mt-5'>
-                                <a className='text-myblue2 font-medium' href={this.state.link}>View</a>
+                                <a className='text-mytale font-medium' href={this.state.link}>View</a>
                                 <img src={Extlink} alt='external link icon'></img>
                             </div>
                         </div>

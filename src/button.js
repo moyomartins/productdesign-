@@ -14,12 +14,12 @@ class Button extends Component{
             <div>
             { this.state.type === 'ext' ?
             <a href={this.state.link} >
-            <div className='bg-myblue2 py-4 px-9 rounded-full text-mywhite max-w-max'>
+            <div className='bg-myteal py-4 px-9 rounded-full text-mywhite max-w-max '>
             <p className='whitespace-nowrap'>{this.props.text}</p>
             </div>
             </a> :
             <Link to={this.state.link} >
-            <div className='bg-myblue2 py-4 px-9 rounded-full text-mywhite max-w-max'>
+            <div className='bg-myteal py-4 px-9 rounded-full text-mywhite max-w-max'>
             <p className='whitespace-nowrap'>{this.props.text}</p>
             </div>
             </Link>}

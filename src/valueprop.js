@@ -17,9 +17,7 @@ class ValueProp extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className='Image bg-mypurple flex-grow flex  '>
-                            <div className='bg-mypurple max-w-md mx-auto'><img src={Gif} alt='Mockup Gif'/></div>
-                        </div>
+                  
                     </div>
                     </div>
                 </div>

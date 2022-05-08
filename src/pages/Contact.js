@@ -13,9 +13,9 @@ function Contact(props) {
             <p className='text-3xl text-myblack font-bold text-center'>Say hello! </p>
          </header>
          <div className=' flex flex-col items-center'>
-            <p className='text-mysecondary max-w-3xl text-left mt-4 leading-8 font-light mx-8'>Want to have a chat with me about food, movies, a project, or product design? </p>
+            <p className='text-mysecondary max-w-3xl text-left mt-4 leading-8 font-light mx-8'>Want to have a chat with me about food, movies or product design? </p>
             <div className='flex flex-wrap iphone:gap-4 items-center mt-2 mx-8'>
-                <p className='text-mysecondary leading-8 font-light'>Send me a mail</p>
+                <p className='text-mysecondary leading-8 font-light'>Send me a mail at</p>
                 <a className='email flex items-center gap-2 justify-end' href='mailto:martinstm@yahoo.com'>
                     <img src={Yahoo} alt='yahoo logo'/>
                     <p className='underline'>Martinstm@yahoo.com</p>
@@ -24,7 +24,7 @@ function Contact(props) {
         </div>
       </div>
       <Footer/>
-      <div className='TopBar flex bg-red-300 w-screen justify-center'><TopBar page='contact'/></div>
+      <div className='TopBar'><TopBar page='contact'/></div>
 
     </div>
   )

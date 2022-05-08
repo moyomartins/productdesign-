@@ -49,16 +49,16 @@ class TopBar extends Component{
                         </Link>
                         <div className='Menu-icon-mobile md:hidden'><img src={this.state.menuIcon} onClick={this.handleClick} alt='Menu icon'/></div>
                         <div className='Menu-desktop hidden md:flex gap-20 text-myblack font-light text-lg px-8'>
-                        {this.state.page === 'home' ? <p className='bg-myblue rounded-full px-5'>.home</p> : <Link to='/' className='hover:bg-mygrey rounded-full px-5'>.home</Link>}                                    
-                        {this.state.page === 'work' ? <p className='bg-myblue rounded-full px-5' to='/work'>.work</p> :  <Link to='/work' className='hover:bg-mygrey rounded-full px-5 '>.work</Link>}                                               
-                        {this.state.page === 'contact' ? <p className='bg-myblue rounded-full px-5'>.contact</p> :  <Link to='/contact' className='hover:bg-mygrey rounded-full px-5'>.contact</Link>}
+                        {this.state.page === 'home' ? <p className='bg-myteal rounded-full px-5'>.home</p> : <Link to='/' className='hover:bg-mygrey rounded-full px-5'>.home</Link>}                                    
+                        {this.state.page === 'work' ? <p className='bg-myteal rounded-full px-5' to='/work'>.work</p> :  <Link to='/work' className='hover:bg-mygrey rounded-full px-5 '>.work</Link>}                                               
+                        {this.state.page === 'contact' ? <p className='bg-myteal rounded-full px-5'>.contact</p> :  <Link to='/contact' className='hover:bg-mygrey rounded-full px-5'>.contact</Link>}
                                                                            
                         </div>
                     </div>
                     { this.state.menuIcon === MenuOpen ? <div className='Menu-mobile md:hidden flex flex-col gap-8 items-center bg-mygrey w-screen pt-12 pb-24 font-light text-lg text-myblack'>
-                        {this.state.page === 'home' ? <p className='bg-myblue rounded-full px-5 my-3'>.home</p> : <Link to='/' className='my-3'>.home</Link>}
-                        {this.state.page === 'work' ? <p className='bg-myblue rounded-full px-5 my-3' to='/work'>.work</p> :  <Link to='/work' className='my-3'>.work</Link>}
-                        {this.state.page === 'contact' ? <p className='bg-myblue rounded-full px-5 my-3'>.contact</p> :  <Link to='/contact' className='my-3'>.contact</Link>}
+                        {this.state.page === 'home' ? <p className='bg-myteal rounded-full px-5 my-3'>.home</p> : <Link to='/' className='my-3'>.home</Link>}
+                        {this.state.page === 'work' ? <p className='bg-myteal rounded-full px-5 my-3' to='/work'>.work</p> :  <Link to='/work' className='my-3'>.work</Link>}
+                        {this.state.page === 'contact' ? <p className='bg-myteal rounded-full px-5 my-3'>.contact</p> :  <Link to='/contact' className='my-3'>.contact</Link>}
                     </div> : <div/>}
                     
                 </div>
